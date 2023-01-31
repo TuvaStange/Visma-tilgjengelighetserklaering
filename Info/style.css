@@ -1,18 +1,26 @@
 html {
     background-color: #F8F7F5;
 }
+
 h1 {
     font-family: sans-serif;
     color: #282828;
 }
+
 h2, h3 {
     font-family: sans-serif;
     font-size: 24px;
 }
+
+h3 {
+    margin-top: 5%;
+}
+
 p, li {
     font-family: sans-serif;
     font-size: 16px;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -20,13 +28,137 @@ p, li {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 .doc-container {
     padding: 3% 5% 5% 5%;
     background-color: #FFFFFF;
-    width: 60%;
-    height: 100vh;
+    width: 50%;
     box-shadow: 5px 7px 5px #0505053f;
 }
+
 .doc-container h2 {
     font-size: 32px;
 }
+.slider-alignment {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.slider-container {
+    background-color: #ECEEF1;
+    width: 329px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin-top: 50px;
+}
+
+.slider {
+    width: 159px;
+    height: 27px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ECEEF1;
+    cursor: pointer;
+}
+
+#feedback {
+    background-color: #FFFFFF;
+}
+
+.logo-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 12rem;
+}
+
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-family: sans-serif;
+        color: #282828;
+        font-size: 16px;
+    }
+    
+    h2, h3 {
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    h3 {
+        margin-top: 10%;
+    }
+    
+    p, li {
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7%;
+    }
+    
+    .doc-container {
+        margin-left: 8%;
+        margin-right: 8%;
+        background-color: #FFFFFF;
+        width: 95%;
+    }
+    
+    .doc-container h2 {
+        font-size: 24px;
+    }
+    .slider-alignment {
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    
+    .slider-container {
+        background-color: #ECEEF1;
+        width: 329px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        margin-top: 50px;
+    }
+    
+    .slider {
+        width: 159px;
+        height: 27px;
+        border-radius: 8px;
+        border: none;
+        background-color: #ECEEF1;
+        cursor: pointer;
+    }
+    
+    #feedback {
+        background-color: #FFFFFF;
+    }
+    
+    .logo-container {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo-container img {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 7rem;
+    }
+  }
