@@ -88,15 +88,11 @@ p, li {
     width: 12rem;
 }
 
-
-
-
 .doc-container1 {
     width: 50%;
     background-color: #FFFFFF;
     box-shadow: 5px 5px 10px #0505053f;
 }
-
 
 .feedback-alignment {
     padding-top: 5%;
@@ -181,7 +177,6 @@ p, li {
     height: 30px;
     cursor: pointer;
     font-family: "Ubuntu";
-
 }
 
 footer {
