@@ -13,48 +13,57 @@
         <h1>Tilgjengelighetserklæring</h1>
 
         <div class="container">
-            <div class="doc-container">
-                <div>
-                    <h2>Accessibility Statement for Visma Flyt Ressursstyring</h2>
-                    <p>This is an accessibility statement from Visma Enterprise AS.</p>
-                </div>
+            <div class="doc-container" id="info-container">
+                <div id="info-hide">
+                    <div class="slider-alignment">
+                        <div class="slider-container">
+                            <button class="slider" onclick="iselectedbtn()" id="info">Info</button>
+                        
+                            <button class="slider" onclick="fselectedbtn()" id="feedback">Feedback</button>
+                        </div>
+                    </div>
 
-                <div>
-                    <h3>Measures to support accessibility</h3>
-                    <p>Visma Enterprise AS takes the following measures to ensure accessibility of Visma Flyt Ressursstyring:</p>
+                    <div>
+                        <h2 id="headline">Accessibility Statement for Visma Flyt Ressursstyring</h2>
+                        <p>This is an accessibility statement from Visma Enterprise AS.</p>
+                    </div>
 
-                    <ul>
-                        <li>Include accessibility as part of our mission statement.</li>
-                        <li>Include accessibility throughout our internal policies.</li>
-                        <li>Integrate accessibility into our procurement practices.</li>
-                        <li>Provide continual accessibility training for our staff.</li>
-                        <li>Assign clear accessibility goals and responsibilities.</li>
-                        <li>Employ formal accessibility quality assurance methods.</li>
-                    </ul>
-                </div>
+                    <div>
+                        <h3>Measures to support accessibility</h3>
+                        <p>Visma Enterprise AS takes the following measures to ensure accessibility of Visma Flyt Ressursstyring:</p>
 
-                <div>
-                    <h3>Conformance status</h3>
-                    <p>The <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> 
-                        defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three 
-                        levels of conformance: Level A, Level AA, and Level AAA. Visma Flyt Timeplan is non conformant with WCAG 2.1 level AA. Non 
-                        conformant means that the content does not conform to the accessibility standard.</p>
-                </div>
+                        <ul>
+                            <li>Include accessibility as part of our mission statement.</li>
+                            <li>Include accessibility throughout our internal policies.</li>
+                            <li>Integrate accessibility into our procurement practices.</li>
+                            <li>Provide continual accessibility training for our staff.</li>
+                            <li>Assign clear accessibility goals and responsibilities.</li>
+                            <li>Employ formal accessibility quality assurance methods.</li>
+                        </ul>
+                    </div>
 
-                <div>
-                    <h3>Technical specifications</h3>
-                    <p>Accessibility of Visma Flyt Ressursstyring relies on the following technologies to work with the particular combination of 
-                        web browser and any assistive technologies or plugins installed on your computer:</p>
-                    
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Angular</li>
-                    </ul>
+                    <div>
+                        <h3>Conformance status</h3>
+                        <p>The <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">Web Content Accessibility Guidelines (WCAG)</a> 
+                            defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three 
+                            levels of conformance: Level A, Level AA, and Level AAA. Visma Flyt Timeplan is non conformant with WCAG 2.1 level AA. Non 
+                            conformant means that the content does not conform to the accessibility standard.</p>
+                    </div>
 
-                    <p>These technologies are relied upon for conformance with the accessibility standards used.</p>
-                </div>
+                    <div>
+                        <h3>Technical specifications</h3>
+                        <p>Accessibility of Visma Flyt Ressursstyring relies on the following technologies to work with the particular combination of 
+                            web browser and any assistive technologies or plugins installed on your computer:</p>
+                        
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Angular</li>
+                        </ul>
+
+                        <p>These technologies are relied upon for conformance with the accessibility standards used.</p>
+                    </div>
 
                 <div>
                     <h3>Assessment approach</h3>
@@ -65,16 +74,55 @@
                     </ul>
                 </div>
 
-                <div class="slider-alignment">
-                    <div class="slider-container">
-                        <button class="slider" onclick="iselectedbtn()" id="info">Info</button>
-    
-                        <button class="slider" onclick="fselectedbtn()" id="feedback">Feedback</button>
-                    </div>
-                </div>
+
 
                 <div class="logo-container">
-                    <img src="/Components/visma.png" alt="Visma logo">
+                    <img src="/Visma-tilgjengelighetserklaering/Components/visma.png" alt="Visma logo">
+                </div>
+                </div>
+            
+
+                
+            
+
+                <div class="doc-container11" id="feed-container">
+                    <div class="slider-alignment">
+                        <div class="slider-container">
+                            <button class="slider" onclick="iselectedbtn()" id="info1">Info</button>
+                        
+                            <button class="slider" onclick="fselectedbtn()" id="feedback1">Feedback</button>
+                        </div>
+                    </div>
+                    <div class="feedback-alignment">
+                        <div class="feedback-text">
+                            <h2>Feedback</h2>
+                                <br>
+                            <p>We welcome your feedback on the accessibility of Visma Flyt Ressursstyring. Please let us know if you encounter accessibility barriers on Visma Flyt Ressursstyring:</p>
+                                <br>
+                            <i>We try to respond to feedback within 2 business days.</i>
+                        </div>
+                    </div>
+                
+                    <div class="form-alignment">
+                        <div class="form-inputs">
+                            <h3 class="inputtext">Name</h3>
+                            <input type="text" id="name" class="form-input" >
+                        
+                            <h3 class="inputtext">E-mail</h3>
+                            <input type="text" id="email" class="form-input">
+                        
+                            <h3 class="inputtext">What can we improve?</h3>
+                            <textarea id="message"></textarea>
+                            <div class="submit-align">
+                                <button id="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <footer>
+                        <img src="/Visma-tilgjengelighetserklaering/Components/visma.png">
+                    </footer>
+                
                 </div>
             </div>
         </div>
