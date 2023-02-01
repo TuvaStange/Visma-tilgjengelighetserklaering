@@ -4,19 +4,34 @@ let infobtn1 = document.getElementById('info1');
 let feedbackbtn1 = document.getElementById("feedback1");
 
 function iselectedbtn() {
-    infobtn.style.backgroundColor = "#ECEEF1";
-    feedbackbtn.style.backgroundColor = "#ffffff";
+    feedbackbtn.style.backgroundColor = "#ECEEF1";
+    feedbackbtn.style.color = "#000000";
+
+    infobtn.style.backgroundColor = "#0060A1";
+    infobtn.style.color = "#ffffff";
+    feedbackbtn1.style.backgroundColor = "#0060A1";
+    feedbackbtn.style.color = "#000000";
     infobtn1.style.backgroundColor = "#ECEEF1";
-    feedbackbtn1.style.backgroundColor = "#ffffff";
+    infobtn1.style.color = "#000000";
+
     document.getElementById("feed-container").style.display = "none";
     document.getElementById("info-hide").style.display = "block";
 }
 
 function fselectedbtn() {
-    feedbackbtn.style.backgroundColor = "#ECEEF1";
-    infobtn.style.backgroundColor = "#ffffff";
-    feedbackbtn1.style.backgroundColor = "#ECEEF1";
-    infobtn1.style.backgroundColor = "#ffffff";
+    infobtn.style.backgroundColor = "#ECEEF1";
+    infobtn.style.color = "#000000";
+
+
+    feedbackbtn.style.backgroundColor = "#0060A1";
+    feedbackbtn.style.color = "#ffffff";
+
+    feedbackbtn1.style.backgroundColor = "#0060A1";
+    feedbackbtn1.style.color = "#ffffff";
+
+    infobtn1.style.backgroundColor = "#ECEEF1";
+    infobtn1.style.color = "#000000";
+
     document.getElementById("feed-container").style.display = "block";
     document.getElementById("info-hide").style.display = "none";
 }

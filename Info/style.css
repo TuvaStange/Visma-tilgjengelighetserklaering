@@ -56,7 +56,6 @@ p, li {
 }
 
 .slider-alignment {
-    background-color: var(--white);
     display: flex;
     justify-content: center;
 }
@@ -81,8 +80,9 @@ p, li {
     background-color: var(--bg-gray);
 }
 
-#feedback {
-    background-color: var(--white);
+#info {
+    background-color: var(--blue);
+    color: var(--white);
 }
 .logo-container {
     margin-top: 5%;
